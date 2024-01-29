@@ -23,7 +23,7 @@ cd GitProbe
 python3 gitprobe.py -r -c "iam.gserviceaccount.com"
 ```
 
-This command searches for "edreams" or "edreamsodigeo" in repositories and code.  
+This command searches for "keywords" in repositories and code.  
 
 -r: Search in repositories.  
 -c: Search in code.  
