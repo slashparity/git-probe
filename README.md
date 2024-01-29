@@ -17,3 +17,8 @@ Python 3.x installed on your system.
 
 ## Usage  
 
+```bash
+git clone https://github.com/yourusername/GitProbe.git
+cd GitProbe
+python3 gitprobe.py -r -c "python"
+```
