@@ -17,6 +17,12 @@ Python 3.x installed on your system.
 
 ## Usage  
 
+`-r` Search in repositories.  
+`-c` Search in code.  
+`-i` Search in issues.  
+`-m` Search in commits.  
+If no flags are provided, the script searches in all categories by default.   
+
 ```bash
 git clone https://github.com/yourusername/GitProbe.git
 cd GitProbe
@@ -24,11 +30,6 @@ python3 gitprobe.py -r -c "iam.gserviceaccount.com"
 ```
 ![image](https://github.com/slashparity/git-probe/assets/80419690/ca632bfe-a046-4d51-b359-cb80ed219eb9)
 
-`-r` Search in repositories.  
-`-c` Search in code.  
-`-i` Search in issues.  
-`-m` Search in commits.  
-If no flags are provided, the script searches in all categories by default.  
 
 The search results are displayed in the console and saved to a file named github_search_results.txt.  
 The script handles GitHub API rate limits and pagination but always monitor your rate limit status to avoid being blocked.  
