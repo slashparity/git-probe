@@ -22,8 +22,7 @@ git clone https://github.com/yourusername/GitProbe.git
 cd GitProbe
 python3 gitprobe.py -r -c "iam.gserviceaccount.com"
 ```
-
-This command searches for "keywords" in repositories and code.  
+![image](https://github.com/slashparity/git-probe/assets/80419690/ca632bfe-a046-4d51-b359-cb80ed219eb9)
 
 `-r` Search in repositories.  
 `-c` Search in code.  
