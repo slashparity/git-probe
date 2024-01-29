@@ -17,17 +17,16 @@ Python 3.x installed on your system.
 
 ## Usage  
 
-`-r` Search in repositories.  
-`-c` Search in code.  
-`-i` Search in issues.  
-`-m` Search in commits.  
-If no flags are provided, the script searches in all categories by default.   
-
 ```bash
 git clone https://github.com/yourusername/GitProbe.git
 cd GitProbe
 python3 gitprobe.py -r -c "iam.gserviceaccount.com"
 ```
+`-r` Search in repositories.  
+`-c` Search in code.  
+`-i` Search in issues.  
+`-m` Search in commits.  
+If no flags are provided, the script searches in all categories by default.   
 ![image](https://github.com/slashparity/git-probe/assets/80419690/ca632bfe-a046-4d51-b359-cb80ed219eb9)
 
 
