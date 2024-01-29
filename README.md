@@ -25,10 +25,10 @@ python3 gitprobe.py -r -c "iam.gserviceaccount.com"
 
 This command searches for "keywords" in repositories and code.  
 
--r: Search in repositories.  
--c: Search in code.  
--i: Search in issues.  
--m: Search in commits.  
+`-r` Search in repositories.  
+`-c` Search in code.  
+`-i` Search in issues.  
+`-m` Search in commits.  
 If no flags are provided, the script searches in all categories by default.  
 
 The search results are displayed in the console and saved to a file named github_search_results.txt.  
